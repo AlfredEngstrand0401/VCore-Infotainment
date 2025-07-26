@@ -1,8 +1,0 @@
-name: BedWars
-main: com.example.bedwars.BedWarsPlugin
-version: 0.1.0
-api-version: 1.16
-load: POSTWORLD
-commands:
-  bedwars:
-    description: BedWars base command
