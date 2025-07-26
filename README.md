@@ -36,3 +36,19 @@ Volvo P1 platform:
 - S40 (2004–2012)
 - C30 (2006–2013)
 - C70 (2006–2013)
+
+## BedWars Plugin
+
+This repository also contains a simple BedWars plugin for Spigot servers. It features:
+- Team colors and scoreboard integration
+- Map loading from schematic files
+- Basic shop system using an in-game inventory
+
+The plugin source resides in `bedwars/`. Build it using Maven:
+
+```bash
+cd bedwars
+mvn package
+```
+
+The resulting JAR in `target/` can be placed into a Spigot `plugins/` folder.
